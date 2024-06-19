@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=eclipse-temurin:17
+ARG BASE_IMAGE=eclipse-temurin:11
 ARG AGENT_VERSION=1.3.3
 FROM $BASE_IMAGE
 
