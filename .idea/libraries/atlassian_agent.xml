@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="atlassian-agent">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/atlassian-agent.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
