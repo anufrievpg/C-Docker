@@ -49,7 +49,7 @@ RUN apt-get update \
 
 
 
-ARG CONFLUENCE_VERSION=8.5.6
+ARG CONFLUENCE_VERSION=8.5.9
 ENV CONFLUENCE_VERSION                              ${CONFLUENCE_VERSION}
 ARG DOWNLOAD_URL=https://product-downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-${CONFLUENCE_VERSION}.tar.gz
 
