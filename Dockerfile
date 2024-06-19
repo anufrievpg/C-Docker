@@ -84,8 +84,7 @@ RUN groupadd --gid ${RUN_GID} ${RUN_GROUP} \
     && ln -sf /usr/share/fonts/truetype/noto/* /opt/java/openjdk/lib/fonts/fallback/
 
 
-VOLUME ["${CONFLUENCE_HOME}"] # Must be declared after setting perms
-
+VOLUME ["${CONFLUENCE_HOME}"]
 
 
 
