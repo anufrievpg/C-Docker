@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=eclipse-temurin:11
+ARG BASE_IMAGE=eclipse-temurin:17
 ARG AGENT_VERSION=1.3.3
 FROM $BASE_IMAGE
 
@@ -84,8 +84,7 @@ RUN groupadd --gid ${RUN_GID} ${RUN_GROUP} \
     && ln -sf /usr/share/fonts/truetype/noto/* /opt/java/openjdk/lib/fonts/fallback/
 
 
-VOLUME ["${CONFLUENCE_HOME}"] # Must be declared after setting perms
-
+VOLUME ["${CONFLUENCE_HOME}"]
 
 
 
